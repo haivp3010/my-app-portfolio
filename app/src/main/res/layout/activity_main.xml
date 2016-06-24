@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.duyhai.myappportfolio.MainActivity">
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAlignment="center"
+        android:text="@string/start_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn1"
+        android:text="@string/app1_tit"
+        style="@style/Buttons" />
+    <Button
+        android:id="@+id/btn2"
+        android:text="@string/app2_tit"
+        style="@style/Buttons" />
+    <Button
+        android:id="@+id/btn3"
+        android:text="@string/app3_tit"
+        style="@style/Buttons" />
+    <Button
+        android:id="@+id/btn4"
+        android:text="@string/app4_tit"
+        style="@style/Buttons" />
+    <Button
+        android:id="@+id/btn5"
+        android:text="@string/app5_tit"
+        style="@style/Buttons" />
+    <Button
+        android:id="@+id/btn6"
+        android:text="@string/app6_tit"
+        style="@style/Buttons" />
+
+</LinearLayout>
